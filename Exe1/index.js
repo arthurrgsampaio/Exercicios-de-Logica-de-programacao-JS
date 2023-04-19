@@ -1,3 +1,5 @@
+//Primeira Parte
+
 /*let primeiroNome = null;
 let sobrenome = null;
 let campo = null;
@@ -22,6 +24,8 @@ let idade = 2023 - anoNascimento;
 
 console.log(primeiroNome + " " + sobrenome, campo, idade);
 ///////////////////////////////////////////////////////////
+//Segunda Parte
+
 /*let numUm = null;
 let numDois = null;
 let soma = null;

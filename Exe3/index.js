@@ -1,4 +1,4 @@
-let valor = prompt("Digite qual valor em metro, o qual se deseja converter.");
+let valor = prompt("Digite qual valor, em metro, que se deseja converter.");
 
 let valorNum = parseFloat(valor);
 

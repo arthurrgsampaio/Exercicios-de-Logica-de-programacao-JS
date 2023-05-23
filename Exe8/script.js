@@ -29,6 +29,7 @@ do {
 
     case 3:
       break;
+
     default:
       alert("Por favor, escolha uma das opções disponíveis!");
   }

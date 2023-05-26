@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Exercício 11</title>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <h1>Escalação de Times</h1>
+
+    <p>
+      Construa uma página web que permita montar a escalação de um time de
+      jogadores. Nele deverá ser possível:
+    </p>
+
+    <ul>
+      <li>Escalar um jogador</li>
+      <ul>
+        <li>Informar a posição do jogador a ser escalado para o time.</li>
+        <li>Informar o nome do jogador.</li>
+        <li>Informar o número da camisa do jogador.</li>
+        <li>
+          Ter um botão “Escalar” que pergunta ao usuário se ele deseja confirmar
+          a escalação daquele jogador e então insere as informações em uma lista
+          na página.
+        </li>
+        <li>
+          Após o jogador ser escalado os campos de texto devem ser limpos.
+        </li>
+      </ul>
+      <li>Remover um jogador</li>
+      <ul>
+        <li>Informar o número da camisa do jogador.</li>
+        <li>
+          Ter um botão “Remover” que pergunta ao usuário se ele deseja confirmar
+          a remoção daquele jogador e então exclui ele da lista na página.
+        </li>
+        <li>Após o jogador ser removido o campo de texto deve ser limpo.</li>
+      </ul>
+    </ul>
+
+    <hr />
+
+    <h3>Escalar jogador:</h3>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" />
+    <br />
+    <br />
+    <label for="posicao">Posição:</label>
+    <input type="text" name="posicao" id="posicao" />
+    <br />
+    <br />
+    <label for="numero">Número:</label>
+    <input type="number" name="numero" id="numero" />
+    <br />
+    <br />
+    <button onclick="escalar()">Escalar</button>
+
+    <h3>Remover jogador:</h3>
+    <label for="numRemover">Número que se deseja remover:</label>
+    <input type="number" name="numRemover" id="numRemover" />
+    <br />
+    <br />
+    <button onclick="remover()">Remover</button>
+
+    <hr />
+
+    <h2>Escalação:</h2>
+    <ul id="escalacao"></ul>
+  </body>
+</html>

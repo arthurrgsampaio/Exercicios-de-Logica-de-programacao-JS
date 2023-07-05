@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 12</title>
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <section>
+      <h1>Cadastro de Devs</h1>
+      <p>
+        Construa uma página web que permita cadastrar desenvolvedores, suas
+        tecnologias e tempos de experiência.
+      </p>
+      <ul>
+        <li>
+          A página deve ter um input para o nome completo do desenvolvedor e um
+          botão para adicionar uma nova tecnologia.
+        </li>
+        <li>
+          Ao clicar no botão um evento deve ser disparado criando no formulário
+          uma nova linha de inputs contendo:
+        </li>
+        <ul>
+          <li>
+            Ao clicar no botão um evento deve ser disparado criando no
+            formulário uma nova linha de inputs contendo:
+          </li>
+          <li>
+            um grupo de botões tipo “radio” com opções de tempo de experiência
+            (por exemplo, “0-2 anos”, “3-4 anos” e “5+ anos”)
+          </li>
+          <li>um botão de remover que deve excluir essa linha.</li>
+        </ul>
+        <li>
+          O formulário também deve ter um botão de cadastrar que salva as
+          informações do dev em um array e limpa o formulário. Para testar o
+          funcionamento você pode utilizar um simples console.log()
+        </li>
+      </ul>
+      <p>
+        Para esse exercício você deve utilizar apenas eventos adicionados via
+        javascript e a página deve funcionar sem acionar um recarregamento.
+      </p>
+    </section>
+
+    <hr />
+
+    <main>
+      <h1>Você é Dev? Cadastre-se!</h1>
+
+      <label for="name">Digite seu nome completo:</label>
+      <input type="text" name="name" id="name" />
+      <br />
+      <br />
+
+      <button id="btnTecnology">Adicionar tecnologia!</button>
+
+      <section id="arraySection"></section>
+
+      <section id="tecnologies"></section>
+    </main>
+  </body>
+</html>
